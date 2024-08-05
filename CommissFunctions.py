@@ -21,10 +21,10 @@ bits_per_pix_NIR          = 16
 compression_fractor_NIR   = 2
 
 p = ps.PandoraSat()
-VIS_ra_shape = p.VISDA.shape[0] * p.VISDA.pixel_scale /3600
-VIS_dec_shape = p.VISDA.shape[1] * p.VISDA.pixel_scale /3600
-NIR_ra_shape = p.NIRDA.shape[0] * p.NIRDA.pixel_scale /3600
-NIR_dec_shape = p.NIRDA.shape[1] * p.NIRDA.pixel_scale /3600
+VIS_ra_shape = (p.VISDA.shape[0]*u.pix) * p.VISDA.pixel_scale #arsecs 
+VIS_dec_shape = (p.VISDA.shape[1]*u.pix) * p.VISDA.pixel_scale #arsecs 
+NIR_ra_shape = (p.NIRDA.shape[0]*u.pix) * p.NIRDA.pixel_scale #arsecs 
+NIR_dec_shape = (p.NIRDA.shape[1]*u.pix) * p.NIRDA.pixel_scale #arsecs 
 
 
 # -
