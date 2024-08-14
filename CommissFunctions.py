@@ -68,7 +68,7 @@ def generate_task_plan(variables, output_file):
                     <SC_Integrations>{NIR_SC_Integrations}</SC_Integrations>
                 </NIRDA>
                 <VDA>
-                    <StartRoiDetMethod>{VIS_StartRoiDetMethod}</StartRoiDetMethod>
+                    <StarRoiDetMethod>{VIS_StarRoiDetMethod}</StarRoiDetMethod>
                     <FramesPerCoadd>{VIS_FramesPerCoadd}</FramesPerCoadd>
                     <NumTotalFramesRequested>{VIS_NumTotalFramesRequested}</NumTotalFramesRequested>
                     <TargetRA>{VIS_TargetRA}</TargetRA>
