@@ -12,4 +12,7 @@ Jupyter notebooks for simulating instrument commissioning tasks. To run each not
 - [].ipynp -- Jupyter Notebook for simulating the commissioning task. The task overview is documented at the top. 
 - []_SOC.xml -- File with saved observation parameters for the Science Operations Center. This file is generated at the end of each Notebook. 
 - []_ResultsSummary.md -- File where commissioning results for that task will eventually be documented.
-- [].fits -- Simulated output file from PandoraSim. This file IS NOT saved on GitHub. They are too large. Instead, find them on Box: https://nasa-ext.box.com/s/xwmk1sjr0mrah45fxi301nz0vj61p4ea 
+- [].fits -- Simulated output file from PandoraSim. This file IS NOT saved on GitHub. They are too large. Instead, find them on Box: https://nasa-ext.box.com/s/xwmk1sjr0mrah45fxi301nz0vj61p4ea
+
+# Other Useful Resources:
+- Data Volume Spreadsheet: https://docs.google.com/spreadsheets/d/1c5v36dlqBTMy_HB9ULrm1HTLXjUB4Orf/edit?gid=1014555139#gid=1014555139 
