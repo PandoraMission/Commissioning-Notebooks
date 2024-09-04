@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<ScienceCalendar xmlns="/pandora/calendar/">
+<Meta Valid_From="2025-04-25 00:00:00" Expires="2026-04-24 12:29:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 40.0, 63.0" Created="2024-03-15 14:20:52.506870" Delivery_Id=""/>
+    <Visit>
+        <ID>3175</ID>
+        <Observation_Sequence>
+            <ID>000</ID>
+            <Observational_Parameters>
+                <Target>WASP 80</Target>
+                <Priority>1</Priority>
+                <Timing>
+                    <Start>2024-09-04 03:49:04.539250</Start>
+                    <Stop>2024-09-04 03:49:44.539250</Stop>
+                </Timing>
+                <Boresight>
+                    <RA>303.16737223575 deg</RA>
+                    <DEC>-2.14421873291 deg</DEC>
+                </Boresight>
+            </Observational_Parameters>
+            <Payload_Parameters>
+                <NIRDA>
+                    <AverageGroups></AverageGroups>
+                    <ROI_StartX></ROI_StartX>
+                    <ROI_StartY></ROI_StartY>
+                    <ROI_SizeX></ROI_SizeX>
+                    <ROI_SizeY></ROI_SizeY>
+                    <SC_Resets1></SC_Resets1>
+                    <SC_Resets2></SC_Resets2>
+                    <SC_DropFrames1></SC_DropFrames1>
+                    <SC_DropFrames2></SC_DropFrames2>
+                    <SC_DropFrames3></SC_DropFrames3>
+                    <SC_ReadFrames></SC_ReadFrames>
+                    <TargetID></TargetID>
+                    <SC_Groups></SC_Groups>
+                    <SC_Integrations></SC_Integrations>
+                </NIRDA>
+                <VDA>
+                    <StarRoiDetMethod>0</StarRoiDetMethod>
+                    <FramesPerCoadd>1</FramesPerCoadd>
+                    <NumTotalFramesRequested>200</NumTotalFramesRequested>
+                    <TargetRA>303.16737223575 deg</TargetRA>
+                    <TargetDEC>-2.14421873291 deg</TargetDEC>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
+                    <StarRoiDimension>[2048, 2048]</StarRoiDimension>
+                    <MaxNumStarRois></MaxNumStarRois>
+                    <numPredefinedStarRois>1</numPredefinedStarRois>
+                    <PredefinedStarRoiRa>303.16737223575 deg</PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>-2.14421873291 deg</PredefinedStarRoiDec>
+                    <TargetID>WASP 80</TargetID>
+                    <NumExposuresMax>200</NumExposuresMax>
+                    <ExposureTime_us>200000.0</ExposureTime_us>
+                </VDA>
+            </Payload_Parameters>
+        </Observation_Sequence>
