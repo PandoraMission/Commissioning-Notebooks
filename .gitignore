@@ -1,3 +1,5 @@
+*.fits
+
 *.bundle.*
 lib/
 node_modules/
