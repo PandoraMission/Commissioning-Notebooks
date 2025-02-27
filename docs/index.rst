@@ -14,7 +14,11 @@ This repository contains interactive notebooks for use as part of the Pandora Sm
    
    quickstart
    notebook_links/nb_3_10
+   notebook_links/nb_3_12_17
+   notebook_links/nb_3_15
    notebook_links/nb_3_18
+   notebook_links/nb_3_20
+   notebook_links/nb_3_175
 
 
    
