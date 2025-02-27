@@ -9,11 +9,12 @@ Pandora Commissioning Notebook Documentation
 This repository contains interactive notebooks for use as part of the Pandora SmallSat's commissioning plan.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    
    quickstart
-   test_notebook
+   notebook_links/nb_3_10
+   notebook_links/nb_3_18
 
 
    
