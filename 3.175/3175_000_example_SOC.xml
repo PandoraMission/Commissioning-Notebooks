@@ -9,8 +9,8 @@
                 <Target>WASP 80</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2024-09-04 03:49:04.539250</Start>
-                    <Stop>2024-09-04 03:49:44.539250</Stop>
+                    <Start>2025-03-16 20:44:34.963039</Start>
+                    <Stop>2025-03-16 20:45:14.963039</Stop>
                 </Timing>
                 <Boresight>
                     <RA>303.16737223575 deg</RA>
