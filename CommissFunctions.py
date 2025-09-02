@@ -51,38 +51,43 @@ def generate_task_plan(variables, output_file):
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
-                <NIRDA>
+                <AcquireInfCamImages>
                     <AverageGroups>{NIR_AvgGroups}</AverageGroups>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>{NIR_ROI_StartX}</ROI_StartX>
                     <ROI_StartY>{NIR_ROI_StartY}</ROI_StartY>
                     <ROI_SizeX>{NIR_ROI_SizeX}</ROI_SizeX>
                     <ROI_SizeY>{NIR_ROI_SizeY}</ROI_SizeY>
+                    <TargetID>{NIR_targetID}</TargetID>
                     <SC_Resets1>{NIR_SC_Resets1}</SC_Resets1>
                     <SC_Resets2>{NIR_SC_Resets2}</SC_Resets2>
                     <SC_DropFrames1>{NIR_SC_DropFrames1}</SC_DropFrames1>
                     <SC_DropFrames2>{NIR_SC_DropFrames2}</SC_DropFrames2>
                     <SC_DropFrames3>{NIR_SC_DropFrames3}</SC_DropFrames3>
                     <SC_ReadFrames>{NIR_SC_ReadFrames}</SC_ReadFrames>
-                    <TargetID>{NIR_targetID}</TargetID>
                     <SC_Groups>{NIR_SC_Groups}</SC_Groups>
                     <SC_Integrations>{NIR_SC_Integrations}</SC_Integrations>
-                </NIRDA>
-                <VDA>
-                    <StarRoiDetMethod>{VIS_StarRoiDetMethod}</StarRoiDetMethod>
-                    <FramesPerCoadd>{VIS_FramesPerCoadd}</FramesPerCoadd>
-                    <NumTotalFramesRequested>{VIS_NumTotalFramesRequested}</NumTotalFramesRequested>
+                </AcquireInfCamImages>
+                <AcquireVisCamScienceData>
+                    <NumExposuresMax>{VIS_NumExposuresMax}</NumExposuresMax>
+                    <IncludeFieldSolnsInResp>{VIS_IncludeFieldSolnsInResp}</IncludeFieldSolnsInResp>
+                    <ROI_StartX>512</ROI_StartX>
+                    <ROI_StartY>512</ROI_StartY>
+                    <ROI_SizeX>1024</ROI_SizeX>
+                    <ROI_SizeY>1024</ROI_SizeY>
+                    <TargetID>{VIS_targetID}</TargetID>
                     <TargetRA>{VIS_TargetRA}</TargetRA>
                     <TargetDEC>{VIS_TargetDEC}</TargetDEC>
-                    <IncludeFieldSolnsInResp>{VIS_IncludeFieldSolnsInResp}</IncludeFieldSolnsInResp>
-                    <StarRoiDimension>{VIS_StarRoiDimension}</StarRoiDimension>
-                    <MaxNumStarRois>{VIS_MaxNumStarRois}</MaxNumStarRois>
+                    <StarRoiDetMethod>{VIS_StarRoiDetMethod}</StarRoiDetMethod>
                     <numPredefinedStarRois>{VIS_numPredefinedStarRois}</numPredefinedStarRois>
                     <PredefinedStarRoiRa>{VIS_PredefinedStarRoiRa}</PredefinedStarRoiRa>
                     <PredefinedStarRoiDec>{VIS_PredefinedStarRoiDec}</PredefinedStarRoiDec>
-                    <TargetID>{VIS_targetID}</TargetID>
-                    <NumExposuresMax>{VIS_NumExposuresMax}</NumExposuresMax>
+                    <FramesPerCoadd>{VIS_FramesPerCoadd}</FramesPerCoadd>
                     <ExposureTime_us>{VIS_ExposureTime_us}</ExposureTime_us>
-                </VDA>
+                    <MaxNumStarRois>{VIS_MaxNumStarRois}</MaxNumStarRois>
+                    <StarRoiDimension>{VIS_StarRoiDimension}</StarRoiDimension>
+                    <NumTotalFramesRequested>{VIS_NumTotalFramesRequested}</NumTotalFramesRequested>
+                </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>'''
     
