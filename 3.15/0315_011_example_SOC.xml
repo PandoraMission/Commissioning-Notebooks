@@ -4,7 +4,7 @@
     <Visit>
         <ID>0315</ID>
         <Observation_Sequence>
-            <ID>000</ID>
+            <ID>011</ID>
             <Observational_Parameters>
                 <Target>G4017930742788615552</Target>
                 <Priority>1</Priority>
@@ -14,7 +14,7 @@
                 </Timing>
                 <Boresight>
                     <RA>176.729457161733 deg</RA>
-                    <DEC>27.0395369695943 deg</DEC>
+                    <DEC>26.950790302927636 deg</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
