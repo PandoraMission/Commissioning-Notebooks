@@ -6,49 +6,43 @@
         <Observation_Sequence>
             <ID>000</ID>
             <Observational_Parameters>
-                <Target>WASP 80</Target>
+                <Target>pnt123_456705-005_666666</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-03-16 20:44:34.963039</Start>
-                    <Stop>2025-03-16 20:45:14.963039</Stop>
+                    <Start>2025-09-05 20:01:48.160820</Start>
+                    <Stop>2025-09-05 20:02:28.160820</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>303.16737223575 deg</RA>
-                    <DEC>-2.14421873291 deg</DEC>
+                    <RA>123.45670577640334 deg</RA>
+                    <DEC>-5.6666666666667105 deg</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
-                <NIRDA>
+                <AcquireInfCamImages>
                     <AverageGroups></AverageGroups>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX></ROI_StartX>
                     <ROI_StartY></ROI_StartY>
                     <ROI_SizeX></ROI_SizeX>
                     <ROI_SizeY></ROI_SizeY>
+                    <TargetID></TargetID>
                     <SC_Resets1></SC_Resets1>
                     <SC_Resets2></SC_Resets2>
                     <SC_DropFrames1></SC_DropFrames1>
                     <SC_DropFrames2></SC_DropFrames2>
                     <SC_DropFrames3></SC_DropFrames3>
                     <SC_ReadFrames></SC_ReadFrames>
-                    <TargetID></TargetID>
                     <SC_Groups></SC_Groups>
                     <SC_Integrations></SC_Integrations>
-                </NIRDA>
-                <VDA>
-                    <StarRoiDetMethod>0</StarRoiDetMethod>
-                    <FramesPerCoadd>1</FramesPerCoadd>
-                    <NumTotalFramesRequested>200</NumTotalFramesRequested>
-                    <TargetRA>303.16737223575 deg</TargetRA>
-                    <TargetDEC>-2.14421873291 deg</TargetDEC>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <StarRoiDimension>[2048, 2048]</StarRoiDimension>
-                    <MaxNumStarRois></MaxNumStarRois>
-                    <numPredefinedStarRois>1</numPredefinedStarRois>
-                    <PredefinedStarRoiRa>303.16737223575 deg</PredefinedStarRoiRa>
-                    <PredefinedStarRoiDec>-2.14421873291 deg</PredefinedStarRoiDec>
-                    <TargetID>WASP 80</TargetID>
-                    <NumExposuresMax>200</NumExposuresMax>
+                </AcquireInfCamImages>
+                <AcquireVisCamImages>
+                    <TargetID>pnt123_456705-005_666666</TargetID>
+                    <ROI_StartX>512</ROI_StartX>
+                    <ROI_StartY>512</ROI_StartY>
+                    <ROI_SizeX>1024</ROI_SizeX>
+                    <ROI_SizeY>1024</ROI_SizeY>
+                    <NumExposures>200</NumExposures>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                </VDA>
+                </AcquireVisCamImages>
             </Payload_Parameters>
         </Observation_Sequence>
