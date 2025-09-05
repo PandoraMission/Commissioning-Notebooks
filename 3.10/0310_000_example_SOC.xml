@@ -9,8 +9,8 @@
                 <Target>pnt123_456705-005_666666</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-03 20:01:20.186902</Start>
-                    <Stop>2025-09-03 20:02:00.186902</Stop>
+                    <Start>2025-09-05 12:59:25.878646</Start>
+                    <Stop>2025-09-05 13:00:05.878646</Stop>
                 </Timing>
                 <Boresight>
                     <RA>123.45670577640334 deg</RA>
@@ -18,37 +18,31 @@
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
-                <NIRDA>
+                <AcquireInfCamImages>
                     <AverageGroups></AverageGroups>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX></ROI_StartX>
                     <ROI_StartY></ROI_StartY>
                     <ROI_SizeX></ROI_SizeX>
                     <ROI_SizeY></ROI_SizeY>
+                    <TargetID></TargetID>
                     <SC_Resets1></SC_Resets1>
                     <SC_Resets2></SC_Resets2>
                     <SC_DropFrames1></SC_DropFrames1>
                     <SC_DropFrames2></SC_DropFrames2>
                     <SC_DropFrames3></SC_DropFrames3>
                     <SC_ReadFrames></SC_ReadFrames>
-                    <TargetID></TargetID>
                     <SC_Groups></SC_Groups>
                     <SC_Integrations></SC_Integrations>
-                </NIRDA>
-                <VDA>
-                    <StarRoiDetMethod>0</StarRoiDetMethod>
-                    <FramesPerCoadd>1</FramesPerCoadd>
-                    <NumTotalFramesRequested>200</NumTotalFramesRequested>
-                    <TargetRA>123.45670577640334 deg</TargetRA>
-                    <TargetDEC>-5.6666666666667105 deg</TargetDEC>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <StarRoiDimension>[1024, 1024]</StarRoiDimension>
-                    <MaxNumStarRois></MaxNumStarRois>
-                    <numPredefinedStarRois>1</numPredefinedStarRois>
-                    <PredefinedStarRoiRa>123.45670577640334 deg</PredefinedStarRoiRa>
-                    <PredefinedStarRoiDec>-5.6666666666667105 deg</PredefinedStarRoiDec>
+                </AcquireInfCamImages>
+                <AcquireVisCamImages>
                     <TargetID>pnt123_456705-005_666666</TargetID>
-                    <NumExposuresMax>200</NumExposuresMax>
+                    <ROI_StartX>512</ROI_StartX>
+                    <ROI_StartY>512</ROI_StartY>
+                    <ROI_SizeX>1024</ROI_SizeX>
+                    <ROI_SizeY>1024</ROI_SizeY>
+                    <NumExposures>200</NumExposures>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                </VDA>
+                </AcquireVisCamImages>
             </Payload_Parameters>
         </Observation_Sequence>

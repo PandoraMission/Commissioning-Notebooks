@@ -9,8 +9,8 @@
                 <Target>G3143682556189212672</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-04 12:17:25.901622</Start>
-                    <Stop>2025-09-04 13:57:25.901622</Stop>
+                    <Start>2025-09-05 13:08:04.771979</Start>
+                    <Stop>2025-09-05 14:48:04.771979</Stop>
                 </Timing>
                 <Boresight>
                     <RA>118.985495 deg</RA>
@@ -49,10 +49,10 @@
                     <numPredefinedStarRois>3</numPredefinedStarRois>
                     <PredefinedStarRoiRa>[<Quantity [118.985495] deg>, <Quantity [118.91346317] deg>, <Quantity [119.06797377] deg>]</PredefinedStarRoiRa>
                     <PredefinedStarRoiDec>[<Quantity [5.825131] deg>, <Quantity [5.81646901] deg>, <Quantity [5.82453992] deg>]</PredefinedStarRoiDec>
-                    <FramesPerCoadd>1</FramesPerCoadd>
+                                     <FramesPerCoadd>1</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
                     <MaxNumStarRois></MaxNumStarRois>
-                    <StarRoiDimension>[200, 200]</StarRoiDimension>
+                    <StarRoiDimension>200</StarRoiDimension>
                     <NumTotalFramesRequested>30000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
