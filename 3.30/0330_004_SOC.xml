@@ -9,8 +9,8 @@
                 <Target>G3547915223000134144</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-04 20:54:39.590102</Start>
-                    <Stop>2025-09-04 20:56:20.390102</Stop>
+                    <Start>2025-09-05 20:54:27.207824</Start>
+                    <Stop>2025-09-05 20:56:08.007824</Stop>
                 </Timing>
                 <Boresight>
                     <RA>174.1188423654 deg</RA>
@@ -21,8 +21,8 @@
                 <AcquireInfCamImages>
                     <AverageGroups>2</AverageGroups>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>174.1188423654 deg</ROI_StartX>
-                    <ROI_StartY>-16.8504849173 deg</ROI_StartY>
+                    <ROI_StartX>1968</ROI_StartX>
+                    <ROI_StartY>824</ROI_StartY>
                     <ROI_SizeX>84</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
                     <TargetID>G3547915223000134144</TargetID>
