@@ -4,51 +4,56 @@
     <Visit>
         <ID>0350</ID>
         <Observation_Sequence>
-            <ID>000</ID>
+            <ID>001</ID>
             <Observational_Parameters>
-                <Target>GJ 3470</Target>
+                <Target>HD 284248</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-04-22 17:41:14.006577</Start>
-                    <Stop>2025-04-23 00:21:21.206577</Stop>
+                    <Start>2025-09-04 21:33:14.092485</Start>
+                    <Stop>2025-09-05 04:13:21.292485</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>119.77433139863999 deg</RA>
-                    <DEC>15.3914544625 deg</DEC>
+                    <RA>63.64798411 deg</RA>
+                    <DEC>22.35118125 deg</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
-                <NIRDA>
+                <AcquireInfCamImages>
                     <AverageGroups>2</AverageGroups>
-                    <ROI_StartX>119.77433139863999 deg</ROI_StartX>
-                    <ROI_StartY>15.3914544625 deg</ROI_StartY>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
+                    <ROI_StartX>63.64798411 deg</ROI_StartX>
+                    <ROI_StartY>22.35118125 deg</ROI_StartY>
                     <ROI_SizeX>84</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
+                    <TargetID>HD 284248</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
                     <SC_DropFrames2>16</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
                     <SC_ReadFrames>24</SC_ReadFrames>
-                    <TargetID>GJ 3470</TargetID>
                     <SC_Groups>2</SC_Groups>
                     <SC_Integrations>2858</SC_Integrations>
-                </NIRDA>
-                <VDA>
-                    <StarRoiDetMethod>0</StarRoiDetMethod>
-                    <FramesPerCoadd>50</FramesPerCoadd>
-                    <NumTotalFramesRequested>2400</NumTotalFramesRequested>
-                    <TargetRA>119.77433139863999 deg</TargetRA>
-                    <TargetDEC>15.3914544625 deg</TargetDEC>
+                </AcquireInfCamImages>
+                <AcquireVisCamScienceData>
+                    <NumExposuresMax>2400</NumExposuresMax>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <StarRoiDimension>[50, 50]</StarRoiDimension>
-                    <MaxNumStarRois></MaxNumStarRois>
+                    <ROI_StartX>512</ROI_StartX>
+                    <ROI_StartY>512</ROI_StartY>
+                    <ROI_SizeX>1024</ROI_SizeX>
+                    <ROI_SizeY>1024</ROI_SizeY>
+                    <TargetID>HD 284248</TargetID>
+                    <TargetRA>63.64798411 deg</TargetRA>
+                    <TargetDEC>22.35118125 deg</TargetDEC>
+                    <StarRoiDetMethod>0</StarRoiDetMethod>
                     <numPredefinedStarRois>9</numPredefinedStarRois>
                     <PredefinedStarRoiRa></PredefinedStarRoiRa>
                     <PredefinedStarRoiDec></PredefinedStarRoiDec>
-                    <TargetID>GJ 3470</TargetID>
-                    <NumExposuresMax>2400</NumExposuresMax>
+                                     <FramesPerCoadd>50</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                </VDA>
+                    <MaxNumStarRois></MaxNumStarRois>
+                    <StarRoiDimension>50</StarRoiDimension>
+                    <NumTotalFramesRequested>2400</NumTotalFramesRequested>
+                </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
