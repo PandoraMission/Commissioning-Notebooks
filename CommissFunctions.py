@@ -30,6 +30,15 @@ NIR_dec_shape = (p.NIRDA.shape[1]*u.pix) * p.NIRDA.pixel_scale #arsecs
 # -
 
 def generate_task_plan(variables, output_file):
+    if 'heater_4' in variables and variables['heater_4'] == True:
+        heater_keys = '''
+                <SET_EPS_OPER_SETPOINTS>
+                    <POWER_BOARD_NUM>3</POWER_BOARD_NUM>
+                    <HEATER_NUM>4</HEATER_NUM>
+                    <SETPOINT>{H4_SetPoint}</SETPOINT>
+                    <DEADBAND>{H4_Deadband}</DEADBAND>
+                </SET_EPS_OPER_SETPOINTS>
+            '''
     if variables['ffi_flag']:
         vis_mode_keys = '''
                 <AcquireVisCamImages>
@@ -79,6 +88,9 @@ def generate_task_plan(variables, output_file):
         <ID>{visit_id}</ID>
         <Observation_Sequence>
             <ID>{obs_id}</ID>
+            <Bus_Parameters>
+            ''' + heater_keys + '''
+            </Bus_Parameters>
             <Observational_Parameters>
                 <Target>{target}</Target>
                 <Priority>{priority}</Priority>
