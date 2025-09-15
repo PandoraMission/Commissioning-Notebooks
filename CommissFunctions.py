@@ -122,7 +122,8 @@ def generate_task_plan(variables, output_file):
                     <SC_Integrations>{NIR_SC_Integrations}</SC_Integrations>
                 </AcquireInfCamImages>''' + vis_mode_keys +
          '''</Payload_Parameters>
-        </Observation_Sequence>''')
+        </Observation_Sequence>
+    </Visit>''')
 
     # Substitute variables in the template string
     formatted_str = template_str.format(**variables)
