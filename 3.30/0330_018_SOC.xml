@@ -9,48 +9,50 @@
                 <Target>G3547915223000134144</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-05 20:54:27.236788</Start>
-                    <Stop>2025-09-05 21:54:30.836788</Stop>
+                    <Start>2025-09-18 22:01:06.935203</Start>
+                    <Stop>2025-09-18 23:01:06.935203</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>174.1188423654 deg</RA>
-                    <DEC>-16.8504849173 deg</DEC>
+                    <RA>174.1188423654</RA>
+                    <DEC>-16.8504849173</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
-                    <AverageGroups>2</AverageGroups>
+                    <AverageGroups>1</AverageGroups>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>1968</ROI_StartX>
                     <ROI_StartY>824</ROI_StartY>
-                    <ROI_SizeX>84</ROI_SizeX>
+                    <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
                     <TargetID>G3547915223000134144</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
-                    <SC_DropFrames2>16</SC_DropFrames2>
+                    <SC_DropFrames2>22</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
-                    <SC_ReadFrames>24</SC_ReadFrames>
+                    <SC_ReadFrames>1</SC_ReadFrames>
                     <SC_Groups>2</SC_Groups>
                     <SC_Integrations>429</SC_Integrations>
                 </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
-                    <NumExposuresMax>360</NumExposuresMax>
+                    <NumExposuresMax>18000</NumExposuresMax>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>512</ROI_StartX>
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
                     <TargetID>G3547915223000134144</TargetID>
-                    <TargetRA>174.1188423654 deg</TargetRA>
-                    <TargetDEC>-16.8504849173 deg</TargetDEC>
+                    <TargetRA>174.1188423654</TargetRA>
+                    <TargetDEC>-16.8504849173</TargetDEC>
                     <StarRoiDetMethod>1</StarRoiDetMethod>
                     <FramesPerCoadd>50</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                    <MaxNumStarRois>0</MaxNumStarRois>
+                    <MaxNumStarRois>9</MaxNumStarRois>
                     <StarRoiDimension>50</StarRoiDimension>
-                    <NumTotalFramesRequested>360</NumTotalFramesRequested>
+                    <NumTotalFramesRequested>18000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>
