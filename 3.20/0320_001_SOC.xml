@@ -9,30 +9,30 @@
                 <Target>M81</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-05 20:47:38.725021</Start>
-                    <Stop>2025-09-05 21:24:37.937821</Stop>
+                    <Start>2025-09-18 21:40:44.485097</Start>
+                    <Stop>2025-09-18 22:18:24.485097</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>148.82052508432224 deg</RA>
-                    <DEC>69.13299259787777 deg</DEC>
+                    <RA>148.82052508432224</RA>
+                    <DEC>69.13299259787777</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
-                    <AverageGroups>2</AverageGroups>
+                    <AverageGroups>0</AverageGroups>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>1532</ROI_StartX>
+                    <ROI_StartX>1536</ROI_StartX>
                     <ROI_StartY>1</ROI_StartY>
-                    <ROI_SizeX>516</ROI_SizeX>
+                    <ROI_SizeX>512</ROI_SizeX>
                     <ROI_SizeY>2048</ROI_SizeY>
                     <TargetID>M81</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
-                    <SC_DropFrames2>16</SC_DropFrames2>
+                    <SC_DropFrames2>0</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
                     <SC_ReadFrames>6</SC_ReadFrames>
-                    <SC_Groups>2</SC_Groups>
+                    <SC_Groups>1</SC_Groups>
                     <SC_Integrations>30</SC_Integrations>
                 </AcquireInfCamImages>
                 <AcquireVisCamImages>
@@ -41,8 +41,10 @@
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
-                    <NumExposures>100</NumExposures>
+                    <NumExposures>11300</NumExposures>
                     <ExposureTime_us>200000.0</ExposureTime_us>
                 </AcquireVisCamImages>
             </Payload_Parameters>
         </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>
