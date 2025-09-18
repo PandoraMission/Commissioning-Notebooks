@@ -9,32 +9,15 @@
                 <Target>pnt123_456705-005_666666</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-05 12:59:25.878646</Start>
-                    <Stop>2025-09-05 13:00:05.878646</Stop>
+                    <Start>2025-09-18 15:40:46.462400</Start>
+                    <Stop>2025-09-18 15:41:26.462400</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>123.45670577640334 deg</RA>
-                    <DEC>-5.6666666666667105 deg</DEC>
+                    <RA>123.45670577640334</RA>
+                    <DEC>-5.6666666666667105</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
-                <AcquireInfCamImages>
-                    <AverageGroups></AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX></ROI_StartX>
-                    <ROI_StartY></ROI_StartY>
-                    <ROI_SizeX></ROI_SizeX>
-                    <ROI_SizeY></ROI_SizeY>
-                    <TargetID></TargetID>
-                    <SC_Resets1></SC_Resets1>
-                    <SC_Resets2></SC_Resets2>
-                    <SC_DropFrames1></SC_DropFrames1>
-                    <SC_DropFrames2></SC_DropFrames2>
-                    <SC_DropFrames3></SC_DropFrames3>
-                    <SC_ReadFrames></SC_ReadFrames>
-                    <SC_Groups></SC_Groups>
-                    <SC_Integrations></SC_Integrations>
-                </AcquireInfCamImages>
                 <AcquireVisCamImages>
                     <TargetID>pnt123_456705-005_666666</TargetID>
                     <ROI_StartX>512</ROI_StartX>
@@ -46,3 +29,5 @@
                 </AcquireVisCamImages>
             </Payload_Parameters>
         </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>

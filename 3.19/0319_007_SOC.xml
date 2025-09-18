@@ -6,21 +6,19 @@
         <Observation_Sequence>
             <ID>007</ID>
             <Bus_Parameters>
-            
                 <SET_EPS_OPER_SETPOINTS>
                     <POWER_BOARD_NUM>3</POWER_BOARD_NUM>
                     <HEATER_NUM>4</HEATER_NUM>
-                    <SETPOINT>-25.0</SETPOINT>
-                    <DEADBAND>10.0</DEADBAND>
+                    <SETPOINT>3834</SETPOINT>
+                    <DEADBAND>159</DEADBAND>
                 </SET_EPS_OPER_SETPOINTS>
-            
             </Bus_Parameters>
             <Observational_Parameters>
                 <Target>pnt174_247198-016_830752</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-15 17:08:43.954357</Start>
-                    <Stop>2025-09-15 17:18:44.944357</Stop>
+                    <Start>2025-09-18 18:51:08.677954</Start>
+                    <Stop>2025-09-18 19:01:09.667954</Stop>
                 </Timing>
                 <Boresight>
                     <RA>174.2471975</RA>
@@ -58,9 +56,11 @@
                     <StarRoiDetMethod>1</StarRoiDetMethod>
                     <FramesPerCoadd>1</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                    <MaxNumStarRois></MaxNumStarRois>
+                    <MaxNumStarRois>2</MaxNumStarRois>
                     <StarRoiDimension>50</StarRoiDimension>
                     <NumTotalFramesRequested>3000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>

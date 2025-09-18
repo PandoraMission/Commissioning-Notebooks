@@ -9,32 +9,15 @@
                 <Target>G4017930742788615552</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-05 13:58:18.417349</Start>
-                    <Stop>2025-09-05 14:00:18.417349</Stop>
+                    <Start>2025-09-18 15:46:48.128716</Start>
+                    <Stop>2025-09-18 15:48:48.128716</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>176.66289716173299 deg</RA>
-                    <DEC>27.1060969695943 deg</DEC>
+                    <RA>176.66289716173299</RA>
+                    <DEC>27.1060969695943</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
-                <AcquireInfCamImages>
-                    <AverageGroups></AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX></ROI_StartX>
-                    <ROI_StartY></ROI_StartY>
-                    <ROI_SizeX></ROI_SizeX>
-                    <ROI_SizeY></ROI_SizeY>
-                    <TargetID></TargetID>
-                    <SC_Resets1></SC_Resets1>
-                    <SC_Resets2></SC_Resets2>
-                    <SC_DropFrames1></SC_DropFrames1>
-                    <SC_DropFrames2></SC_DropFrames2>
-                    <SC_DropFrames3></SC_DropFrames3>
-                    <SC_ReadFrames></SC_ReadFrames>
-                    <SC_Groups></SC_Groups>
-                    <SC_Integrations></SC_Integrations>
-                </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
                     <NumExposuresMax>600</NumExposuresMax>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
@@ -43,13 +26,19 @@
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
                     <TargetID>G4017930742788615552</TargetID>
-                    <TargetRA>176.729457161733 deg</TargetRA>
-                    <TargetDEC>27.0395369695943 deg</TargetDEC>
+                    <TargetRA>176.729457161733</TargetRA>
+                    <TargetDEC>27.0395369695943</TargetDEC>
                     <StarRoiDetMethod>0</StarRoiDetMethod>
                     <numPredefinedStarRois>2</numPredefinedStarRois>
-                    <PredefinedStarRoiRa>[176.729457161733, 176.738165333805]</PredefinedStarRoiRa>
-                    <PredefinedStarRoiDec>[27.0395369695943, 27.0230083215405]</PredefinedStarRoiDec>
-                                     <FramesPerCoadd>1</FramesPerCoadd>
+                    <PredefinedStarRoiRa>
+                        <RA1>176.729457161733</RA1>
+                        <RA2>176.738165333805</RA2>
+                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>
+                       <Dec1>27.0395369695943</Dec1>
+                       <Dec2>27.0230083215405</Dec2>
+                    </PredefinedStarRoiDec>
+                    <FramesPerCoadd>1</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
                     <MaxNumStarRois></MaxNumStarRois>
                     <StarRoiDimension>200</StarRoiDimension>
@@ -57,3 +46,5 @@
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>
