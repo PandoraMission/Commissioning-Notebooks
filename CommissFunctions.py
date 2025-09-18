@@ -56,16 +56,21 @@ def generate_task_plan(variables, output_file):
                     <ExposureTime_us>{VIS_ExposureTime_us}</ExposureTime_us>
                 </AcquireVisCamImages>
             '''
-    else:
+    elif variables['VIS_ExposureTime_us'] != '' and float(variables['VIS_ExposureTime_us']) > 0:
         if not variables['VIS_StarRoiDetMethod']:
+            roi_ras = ""
+            roi_decs = ""
+            ras = [ra.value if isinstance(ra, u.Quantity) else ra for ra in variables['VIS_PredefinedStarRoiRa']]
+            decs = [dec.value if isinstance(dec, u.Quantity) else dec for dec in variables['VIS_PredefinedStarRoiDec']]
+            for i in range(len(ras)):
+                roi_ras += '                        <RA' + str(i+1) + '>' + str(ras[i]) + '</RA' + str(i+1) +'>\n'
+                roi_decs += '                       <Dec' + str(i+1) + '>' + str(decs[i]) + '</Dec' + str(i+1) +'>\n'
             roi_keys = ('''
                     <numPredefinedStarRois>{VIS_numPredefinedStarRois}</numPredefinedStarRois>
-                    <PredefinedStarRoiRa>{VIS_PredefinedStarRoiRa}</PredefinedStarRoiRa>
-                    <PredefinedStarRoiDec>{VIS_PredefinedStarRoiDec}</PredefinedStarRoiDec>
-                    ''')
+                    <PredefinedStarRoiRa>\n'''+roi_ras+'''                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>\n'''+roi_decs+'''                    </PredefinedStarRoiDec>''')
         else:
-            roi_keys = '''
-   '''
+            roi_keys = ''
         vis_mode_keys = ('''
                 <AcquireVisCamScienceData>
                     <NumExposuresMax>{VIS_NumExposuresMax}</NumExposuresMax>
@@ -77,14 +82,38 @@ def generate_task_plan(variables, output_file):
                     <TargetID>{VIS_targetID}</TargetID>
                     <TargetRA>{VIS_TargetRA}</TargetRA>
                     <TargetDEC>{VIS_TargetDEC}</TargetDEC>
-                    <StarRoiDetMethod>{VIS_StarRoiDetMethod}</StarRoiDetMethod>''' + roi_keys +
-'''                 <FramesPerCoadd>{VIS_FramesPerCoadd}</FramesPerCoadd>
+                    <StarRoiDetMethod>{VIS_StarRoiDetMethod}</StarRoiDetMethod>''' + roi_keys + '''
+                    <FramesPerCoadd>{VIS_FramesPerCoadd}</FramesPerCoadd>
                     <ExposureTime_us>{VIS_ExposureTime_us}</ExposureTime_us>
                     <MaxNumStarRois>{VIS_MaxNumStarRois}</MaxNumStarRois>
                     <StarRoiDimension>{VIS_StarRoiDimension[0]}</StarRoiDimension>
                     <NumTotalFramesRequested>{VIS_NumTotalFramesRequested}</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             ''')
+    else:
+        vis_mode_keys = ''
+
+    if variables['NIR_SC_Integrations'] == '' or variables['NIR_SC_Integrations'] == 0:
+        inf_mode_keys = ''
+    else:
+        inf_mode_keys = ('''
+                <AcquireInfCamImages>
+                    <AverageGroups>{NIR_AvgGroups}</AverageGroups>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
+                    <ROI_StartX>{NIR_ROI_StartX}</ROI_StartX>
+                    <ROI_StartY>{NIR_ROI_StartY}</ROI_StartY>
+                    <ROI_SizeX>{NIR_ROI_SizeX}</ROI_SizeX>
+                    <ROI_SizeY>{NIR_ROI_SizeY}</ROI_SizeY>
+                    <TargetID>{NIR_targetID}</TargetID>
+                    <SC_Resets1>{NIR_SC_Resets1}</SC_Resets1>
+                    <SC_Resets2>{NIR_SC_Resets2}</SC_Resets2>
+                    <SC_DropFrames1>{NIR_SC_DropFrames1}</SC_DropFrames1>
+                    <SC_DropFrames2>{NIR_SC_DropFrames2}</SC_DropFrames2>
+                    <SC_DropFrames3>{NIR_SC_DropFrames3}</SC_DropFrames3>
+                    <SC_ReadFrames>{NIR_SC_ReadFrames}</SC_ReadFrames>
+                    <SC_Groups>{NIR_SC_Groups}</SC_Groups>
+                    <SC_Integrations>{NIR_SC_Integrations}</SC_Integrations>
+                </AcquireInfCamImages>''')
 
     template_str = ('''<?xml version="1.0" ?>
 <ScienceCalendar xmlns="/pandora/calendar/">
@@ -105,27 +134,28 @@ def generate_task_plan(variables, output_file):
                     <DEC>{DEC}</DEC>
                 </Boresight>
             </Observational_Parameters>
-            <Payload_Parameters>
-                <AcquireInfCamImages>
-                    <AverageGroups>{NIR_AvgGroups}</AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>{NIR_ROI_StartX}</ROI_StartX>
-                    <ROI_StartY>{NIR_ROI_StartY}</ROI_StartY>
-                    <ROI_SizeX>{NIR_ROI_SizeX}</ROI_SizeX>
-                    <ROI_SizeY>{NIR_ROI_SizeY}</ROI_SizeY>
-                    <TargetID>{NIR_targetID}</TargetID>
-                    <SC_Resets1>{NIR_SC_Resets1}</SC_Resets1>
-                    <SC_Resets2>{NIR_SC_Resets2}</SC_Resets2>
-                    <SC_DropFrames1>{NIR_SC_DropFrames1}</SC_DropFrames1>
-                    <SC_DropFrames2>{NIR_SC_DropFrames2}</SC_DropFrames2>
-                    <SC_DropFrames3>{NIR_SC_DropFrames3}</SC_DropFrames3>
-                    <SC_ReadFrames>{NIR_SC_ReadFrames}</SC_ReadFrames>
-                    <SC_Groups>{NIR_SC_Groups}</SC_Groups>
-                    <SC_Integrations>{NIR_SC_Integrations}</SC_Integrations>
-                </AcquireInfCamImages>''' + vis_mode_keys +
+            <Payload_Parameters>''' + inf_mode_keys + vis_mode_keys +
+                # <AcquireInfCamImages>
+                #     <AverageGroups>{NIR_AvgGroups}</AverageGroups>
+                #     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
+                #     <ROI_StartX>{NIR_ROI_StartX}</ROI_StartX>
+                #     <ROI_StartY>{NIR_ROI_StartY}</ROI_StartY>
+                #     <ROI_SizeX>{NIR_ROI_SizeX}</ROI_SizeX>
+                #     <ROI_SizeY>{NIR_ROI_SizeY}</ROI_SizeY>
+                #     <TargetID>{NIR_targetID}</TargetID>
+                #     <SC_Resets1>{NIR_SC_Resets1}</SC_Resets1>
+                #     <SC_Resets2>{NIR_SC_Resets2}</SC_Resets2>
+                #     <SC_DropFrames1>{NIR_SC_DropFrames1}</SC_DropFrames1>
+                #     <SC_DropFrames2>{NIR_SC_DropFrames2}</SC_DropFrames2>
+                #     <SC_DropFrames3>{NIR_SC_DropFrames3}</SC_DropFrames3>
+                #     <SC_ReadFrames>{NIR_SC_ReadFrames}</SC_ReadFrames>
+                #     <SC_Groups>{NIR_SC_Groups}</SC_Groups>
+                #     <SC_Integrations>{NIR_SC_Integrations}</SC_Integrations>
+                # </AcquireInfCamImages>''' + vis_mode_keys +
          '''</Payload_Parameters>
         </Observation_Sequence>
-    </Visit>''')
+    </Visit>
+</ScienceCalendar>''')
 
     # Substitute variables in the template string
     formatted_str = template_str.format(**variables)
