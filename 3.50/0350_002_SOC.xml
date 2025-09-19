@@ -9,21 +9,21 @@
                 <Target>HD 60753</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-04 21:34:11.901738</Start>
-                    <Stop>2025-09-05 04:14:19.101738</Stop>
+                    <Start>2025-09-18T21:35:37Z</Start>
+                    <Stop>2025-09-19T04:36:51Z</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>113.36382777 deg</RA>
-                    <DEC>-50.58425443 deg</DEC>
+                    <RA>113.36382777</RA>
+                    <DEC>-50.58425443</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
-                    <AverageGroups>2</AverageGroups>
+                    <AverageGroups>1</AverageGroups>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>113.36382777 deg</ROI_StartX>
-                    <ROI_StartY>-50.58425443 deg</ROI_StartY>
-                    <ROI_SizeX>84</ROI_SizeX>
+                    <ROI_StartX>1968</ROI_StartX>
+                    <ROI_StartY>824</ROI_StartY>
+                    <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
                     <TargetID>HD 60753</TargetID>
                     <SC_Resets1>1</SC_Resets1>
@@ -31,29 +31,26 @@
                     <SC_DropFrames1>0</SC_DropFrames1>
                     <SC_DropFrames2>16</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
-                    <SC_ReadFrames>24</SC_ReadFrames>
+                    <SC_ReadFrames>1.0</SC_ReadFrames>
                     <SC_Groups>2</SC_Groups>
-                    <SC_Integrations>2858</SC_Integrations>
+                    <SC_Integrations>3417</SC_Integrations>
                 </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
-                    <NumExposuresMax>2400</NumExposuresMax>
+                    <NumExposuresMax>1</NumExposuresMax>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>512</ROI_StartX>
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
                     <TargetID>HD 60753</TargetID>
-                    <TargetRA>113.36382777 deg</TargetRA>
-                    <TargetDEC>-50.58425443 deg</TargetDEC>
-                    <StarRoiDetMethod>0</StarRoiDetMethod>
-                    <numPredefinedStarRois>9</numPredefinedStarRois>
-                    <PredefinedStarRoiRa></PredefinedStarRoiRa>
-                    <PredefinedStarRoiDec></PredefinedStarRoiDec>
-                                     <FramesPerCoadd>50</FramesPerCoadd>
+                    <TargetRA>113.36382777</TargetRA>
+                    <TargetDEC>-50.58425443</TargetDEC>
+                    <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <FramesPerCoadd>50</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                    <MaxNumStarRois></MaxNumStarRois>
+                    <MaxNumStarRois>0</MaxNumStarRois>
                     <StarRoiDimension>50</StarRoiDimension>
-                    <NumTotalFramesRequested>2400</NumTotalFramesRequested>
+                    <NumTotalFramesRequested>120000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>

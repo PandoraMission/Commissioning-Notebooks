@@ -9,21 +9,21 @@
                 <Target>IRAS 09484-6242</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-11 17:28:53.006483</Start>
-                    <Stop>2025-09-12 00:09:00.206483</Stop>
+                    <Start>2025-09-19T06:24:12Z</Start>
+                    <Stop>2025-09-19T13:25:27Z</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>147.45593608815 deg</RA>
-                    <DEC>-62.93583676558 deg</DEC>
+                    <RA>147.45593608815</RA>
+                    <DEC>-62.93583676558</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
-                    <AverageGroups>2</AverageGroups>
+                    <AverageGroups>1</AverageGroups>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>147.45593608815 deg</ROI_StartX>
-                    <ROI_StartY>-62.93583676558 deg</ROI_StartY>
-                    <ROI_SizeX>84</ROI_SizeX>
+                    <ROI_StartX>1968</ROI_StartX>
+                    <ROI_StartY>824</ROI_StartY>
+                    <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
                     <TargetID>IRAS 09484-6242</TargetID>
                     <SC_Resets1>1</SC_Resets1>
@@ -31,29 +31,26 @@
                     <SC_DropFrames1>0</SC_DropFrames1>
                     <SC_DropFrames2>16</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
-                    <SC_ReadFrames>24</SC_ReadFrames>
+                    <SC_ReadFrames>1.0</SC_ReadFrames>
                     <SC_Groups>2</SC_Groups>
-                    <SC_Integrations>2858</SC_Integrations>
+                    <SC_Integrations>3417</SC_Integrations>
                 </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
-                    <NumExposuresMax>2400</NumExposuresMax>
+                    <NumExposuresMax>1</NumExposuresMax>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>512</ROI_StartX>
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
                     <TargetID>IRAS 09484-6242</TargetID>
-                    <TargetRA>147.45593608815 deg</TargetRA>
-                    <TargetDEC>-62.93583676558 deg</TargetDEC>
-                    <StarRoiDetMethod>0</StarRoiDetMethod>
-                    <numPredefinedStarRois>9</numPredefinedStarRois>
-                    <PredefinedStarRoiRa></PredefinedStarRoiRa>
-                    <PredefinedStarRoiDec></PredefinedStarRoiDec>
-                                     <FramesPerCoadd>50</FramesPerCoadd>
+                    <TargetRA>147.45593608815</TargetRA>
+                    <TargetDEC>-62.93583676558</TargetDEC>
+                    <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <FramesPerCoadd>50</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                    <MaxNumStarRois></MaxNumStarRois>
+                    <MaxNumStarRois>0</MaxNumStarRois>
                     <StarRoiDimension>50</StarRoiDimension>
-                    <NumTotalFramesRequested>2400</NumTotalFramesRequested>
+                    <NumTotalFramesRequested>120000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>

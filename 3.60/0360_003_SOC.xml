@@ -9,21 +9,21 @@
                 <Target>U Crt</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-04 23:06:58.539622</Start>
-                    <Stop>2025-09-05 05:47:05.739622</Stop>
+                    <Start>2025-09-19T05:40:37Z</Start>
+                    <Stop>2025-09-19T12:41:52Z</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>168.18876369352 deg</RA>
-                    <DEC>-7.29848919311 deg</DEC>
+                    <RA>168.18876369352</RA>
+                    <DEC>-7.29848919311</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
-                    <AverageGroups>2</AverageGroups>
+                    <AverageGroups>1</AverageGroups>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>168.18876369352 deg</ROI_StartX>
-                    <ROI_StartY>-7.29848919311 deg</ROI_StartY>
-                    <ROI_SizeX>84</ROI_SizeX>
+                    <ROI_StartX>1968</ROI_StartX>
+                    <ROI_StartY>824</ROI_StartY>
+                    <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
                     <TargetID>U Crt</TargetID>
                     <SC_Resets1>1</SC_Resets1>
@@ -31,18 +31,26 @@
                     <SC_DropFrames1>0</SC_DropFrames1>
                     <SC_DropFrames2>16</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
-                    <SC_ReadFrames>24</SC_ReadFrames>
+                    <SC_ReadFrames>1.0</SC_ReadFrames>
                     <SC_Groups>2</SC_Groups>
-                    <SC_Integrations>2858</SC_Integrations>
+                    <SC_Integrations>3417</SC_Integrations>
                 </AcquireInfCamImages>
-                <AcquireVisCamImages>
-                    <TargetID>U Crt</TargetID>
+                <AcquireVisCamScienceData>
+                    <NumExposuresMax>1</NumExposuresMax>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>512</ROI_StartX>
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
-                    <NumExposures>2400</NumExposures>
+                    <TargetID>U Crt</TargetID>
+                    <TargetRA>168.18876369352</TargetRA>
+                    <TargetDEC>-7.29848919311</TargetDEC>
+                    <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <FramesPerCoadd>50</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
-                </AcquireVisCamImages>
+                    <MaxNumStarRois>0</MaxNumStarRois>
+                    <StarRoiDimension>50</StarRoiDimension>
+                    <NumTotalFramesRequested>120000</NumTotalFramesRequested>
+                </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
