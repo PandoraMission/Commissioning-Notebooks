@@ -52,6 +52,11 @@ def generate_task_plan(variables, output_file):
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
+                    <SendThumbnails>1</SendThumbnails>
+                    <ThumbnailCompressionType>1</ThumbnailCompressionType>
+                    <RiceX>3</RiceX>
+                    <RiceY>11</RiceY>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
                     <NumExposures>{VIS_NumTotalFramesRequested}</NumExposures>
                     <ExposureTime_us>{VIS_ExposureTime_us}</ExposureTime_us>
                 </AcquireVisCamImages>
@@ -79,6 +84,11 @@ def generate_task_plan(variables, output_file):
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
+                    <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
+                    <RiceX>5</RiceX>
+                    <RiceY>25</RiceY>
+                    <SendThumbnails>0</SendThumbnails>
                     <TargetID>{VIS_targetID}</TargetID>
                     <TargetRA>{VIS_TargetRA}</TargetRA>
                     <TargetDEC>{VIS_TargetDEC}</TargetDEC>
@@ -104,6 +114,12 @@ def generate_task_plan(variables, output_file):
                     <ROI_StartY>{NIR_ROI_StartY}</ROI_StartY>
                     <ROI_SizeX>{NIR_ROI_SizeX}</ROI_SizeX>
                     <ROI_SizeY>{NIR_ROI_SizeY}</ROI_SizeY>
+                    <RiceX>4</RiceX>
+                    <RiceY>28</RiceY>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
+                    <SendThumbnails>1</SendThumbnails>
+                    <ThumbnailBinSize>1</ThumbnailBinSize>
+                    <ThumbnailCompressionType>1</ThumbnailCompressionType>
                     <TargetID>{NIR_targetID}</TargetID>
                     <SC_Resets1>{NIR_SC_Resets1}</SC_Resets1>
                     <SC_Resets2>{NIR_SC_Resets2}</SC_Resets2>
