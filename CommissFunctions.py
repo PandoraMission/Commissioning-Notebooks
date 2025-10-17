@@ -132,7 +132,7 @@ def generate_task_plan(variables, output_file):
 
     template_str = ('''<?xml version="1.0" ?>
 <ScienceCalendar xmlns="/pandora/calendar/">
-<Meta Valid_From="2026-01-05 00:00:00" Expires="2026-02-38 00:00:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 25.0, 63.0" Created="2025-09-19 14:20:52.506870" Delivery_Id=""/>
+<Meta Valid_From="2026-01-05 00:00:00" Expires="2026-02-5 00:00:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 25.0, 63.0" Created="2025-09-19 14:20:52.506870" Delivery_Id=""/>
     <Visit>
         <ID>{visit_id}</ID>
         <Observation_Sequence>
