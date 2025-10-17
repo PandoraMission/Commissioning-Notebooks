@@ -78,7 +78,6 @@ def generate_task_plan(variables, output_file):
             roi_keys = ''
         vis_mode_keys = ('''
                 <AcquireVisCamScienceData>
-                    <NumExposuresMax>{VIS_NumExposuresMax}</NumExposuresMax>
                     <IncludeFieldSolnsInResp>{VIS_IncludeFieldSolnsInResp}</IncludeFieldSolnsInResp>
                     <ROI_StartX>512</ROI_StartX>
                     <ROI_StartY>512</ROI_StartY>
