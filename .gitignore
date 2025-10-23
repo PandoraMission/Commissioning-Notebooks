@@ -1,4 +1,5 @@
 *.fits
+*sandbox*
 
 *.bundle.*
 lib/
