@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ScienceCalendar xmlns="/pandora/calendar/">
-<Meta Valid_From="2025-04-25 00:00:00" Expires="2026-04-24 12:29:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 40.0, 63.0" Created="2024-03-15 14:20:52.506870" Delivery_Id=""/>
+<Meta Valid_From="2026-01-05 00:00:00" Expires="2026-02-5 00:00:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 25.0, 63.0" Created="2025-09-19 14:20:52.506870" Delivery_Id=""/>
     <Visit>
         <ID>0343</ID>
         <Observation_Sequence>
@@ -9,8 +9,8 @@
                 <Target>Sirius</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-18 22:15:52.622796</Start>
-                    <Stop>2025-09-18 22:18:23.010796</Stop>
+                    <Start>2025-10-23 21:41:52.825888</Start>
+                    <Stop>2025-10-23 21:44:23.213888</Stop>
                 </Timing>
                 <Boresight>
                     <RA>101.17588788888888</RA>
@@ -25,6 +25,12 @@
                     <ROI_StartY>1</ROI_StartY>
                     <ROI_SizeX>512</ROI_SizeX>
                     <ROI_SizeY>2048</ROI_SizeY>
+                    <RiceX>4</RiceX>
+                    <RiceY>28</RiceY>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
+                    <SendThumbnails>1</SendThumbnails>
+                    <ThumbnailBinSize>1</ThumbnailBinSize>
+                    <ThumbnailCompressionType>1</ThumbnailCompressionType>
                     <TargetID>Sirius</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
@@ -41,8 +47,13 @@
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
+                    <SendThumbnails>1</SendThumbnails>
+                    <ThumbnailCompressionType>1</ThumbnailCompressionType>
+                    <RiceX>3</RiceX>
+                    <RiceY>11</RiceY>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
                     <NumExposures>750</NumExposures>
-                    <ExposureTime_us>200000.0</ExposureTime_us>
+                    <ExposureTime_us>200000</ExposureTime_us>
                 </AcquireVisCamImages>
             </Payload_Parameters>
         </Observation_Sequence>
