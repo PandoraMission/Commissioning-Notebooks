@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ScienceCalendar xmlns="/pandora/calendar/">
-<Meta Valid_From="2025-04-25 00:00:00" Expires="2026-04-24 12:29:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 40.0, 63.0" Created="2024-03-15 14:20:52.506870" Delivery_Id=""/>
+<Meta Valid_From="2026-01-05 00:00:00" Expires="2026-02-05 00:00:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 25.0, 63.0" Created="2025-09-19 14:20:52.506870" Delivery_Id=""/>
     <Visit>
         <ID>0315</ID>
         <Observation_Sequence>
@@ -9,22 +9,26 @@
                 <Target>G4017930742788615552</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-18 15:46:48.128716</Start>
-                    <Stop>2025-09-18 15:48:48.128716</Stop>
+                    <Start>2025-11-07 16:11:25.027043</Start>
+                    <Stop>2025-11-07 16:13:25.027043</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>176.729457161733</RA>
-                    <DEC>26.950790302927636</DEC>
+                    <RA>176.73381124776898</RA>
+                    <DEC>26.953705978900736</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireVisCamScienceData>
-                    <NumExposuresMax>600</NumExposuresMax>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>512</ROI_StartX>
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
+                    <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
+                    <RiceX>5</RiceX>
+                    <RiceY>25</RiceY>
+                    <SendThumbnails>0</SendThumbnails>
                     <TargetID>G4017930742788615552</TargetID>
                     <TargetRA>176.729457161733</TargetRA>
                     <TargetDEC>27.0395369695943</TargetDEC>
