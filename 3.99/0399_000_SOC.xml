@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ScienceCalendar xmlns="/pandora/calendar/">
-<Meta Valid_From="2025-04-25 00:00:00" Expires="2026-04-24 12:29:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 40.0, 63.0" Created="2024-03-15 14:20:52.506870" Delivery_Id=""/>
+<Meta Valid_From="2026-01-05 00:00:00" Expires="2026-02-05 00:00:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 25.0, 63.0" Created="2025-09-19 14:20:52.506870" Delivery_Id=""/>
     <Visit>
         <ID>0399</ID>
         <Observation_Sequence>
@@ -9,12 +9,12 @@
                 <Target>GJ 1132</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-09-19T05:42:16Z</Start>
-                    <Stop>2025-09-20T08:01:14Z</Stop>
+                    <Start>2025-10-24T12:07:49Z</Start>
+                    <Stop>2025-10-25T14:26:47Z</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>153.71574452</RA>
-                    <DEC>-47.15672022</DEC>
+                    <RA>153.7157445230879</RA>
+                    <DEC>-47.15672021614056</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
@@ -25,6 +25,12 @@
                     <ROI_StartY>824</ROI_StartY>
                     <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
+                    <RiceX>4</RiceX>
+                    <RiceY>28</RiceY>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
+                    <SendThumbnails>1</SendThumbnails>
+                    <ThumbnailBinSize>1</ThumbnailBinSize>
+                    <ThumbnailCompressionType>1</ThumbnailCompressionType>
                     <TargetID>GJ 1132</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
@@ -36,15 +42,19 @@
                     <SC_Integrations>12808</SC_Integrations>
                 </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
-                    <NumExposuresMax>1</NumExposuresMax>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>512</ROI_StartX>
                     <ROI_StartY>512</ROI_StartY>
                     <ROI_SizeX>1024</ROI_SizeX>
                     <ROI_SizeY>1024</ROI_SizeY>
+                    <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
+                    <SaveImagesToDisk>1</SaveImagesToDisk>
+                    <RiceX>5</RiceX>
+                    <RiceY>25</RiceY>
+                    <SendThumbnails>0</SendThumbnails>
                     <TargetID>GJ 1132</TargetID>
-                    <TargetRA>153.71574452</TargetRA>
-                    <TargetDEC>-47.15672022</TargetDEC>
+                    <TargetRA>153.7157445230879</TargetRA>
+                    <TargetDEC>-47.15672021614056</TargetDEC>
                     <StarRoiDetMethod>1</StarRoiDetMethod>
                     <FramesPerCoadd>50</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
@@ -54,3 +64,5 @@
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>
