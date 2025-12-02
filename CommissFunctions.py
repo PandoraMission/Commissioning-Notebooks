@@ -108,7 +108,6 @@ def generate_task_plan(variables, output_file):
         inf_mode_keys = ('''
                 <AcquireInfCamImages>
                     <AverageGroups>{NIR_AvgGroups}</AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>{NIR_ROI_StartX}</ROI_StartX>
                     <ROI_StartY>{NIR_ROI_StartY}</ROI_StartY>
                     <ROI_SizeX>{NIR_ROI_SizeX}</ROI_SizeX>
