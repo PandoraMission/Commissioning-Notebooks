@@ -112,7 +112,7 @@ def generate_task_plan(variables, output_file):
                     <ROI_StartY>{NIR_ROI_StartY}</ROI_StartY>
                     <ROI_SizeX>{NIR_ROI_SizeX}</ROI_SizeX>
                     <ROI_SizeY>{NIR_ROI_SizeY}</ROI_SizeY>
-                    <RiceX>4</RiceX>
+                    <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <SendThumbnails>1</SendThumbnails>
