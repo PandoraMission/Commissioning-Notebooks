@@ -6,32 +6,31 @@
         <Observation_Sequence>
             <ID>015</ID>
             <Observational_Parameters>
-                <Target>3481164318754089216</Target>
+                <Target>3594461261055238528</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-11-13T20:47:19Z</Start>
-                    <Stop>2025-11-13T20:48:56Z</Stop>
+                    <Start>2026-01-09T01:30:20Z</Start>
+                    <Stop>2026-01-09T01:31:56Z</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>176.97340337483243</RA>
-                    <DEC>-28.32319549143294</DEC>
+                    <RA>181.183883</RA>
+                    <DEC>-7.976715</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
                     <AverageGroups>0</AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>1968</ROI_StartX>
                     <ROI_StartY>824</ROI_StartY>
                     <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
-                    <RiceX>4</RiceX>
+                    <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailBinSize>1</ThumbnailBinSize>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
-                    <TargetID>G3183378465002601344</TargetID>
+                    <TargetID>G3594461261055238528</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
@@ -52,9 +51,9 @@
                     <RiceX>5</RiceX>
                     <RiceY>25</RiceY>
                     <SendThumbnails>0</SendThumbnails>
-                    <TargetID>G3183378465002601344</TargetID>
-                    <TargetRA>176.97340337483243</TargetRA>
-                    <TargetDEC>-28.32319549143294</TargetDEC>
+                    <TargetID>G3594461261055238528</TargetID>
+                    <TargetRA>181.183883</TargetRA>
+                    <TargetDEC>-7.976715</TargetDEC>
                     <StarRoiDetMethod>1</StarRoiDetMethod>
                     <FramesPerCoadd>25</FramesPerCoadd>
                     <ExposureTime_us>200000.0</ExposureTime_us>
