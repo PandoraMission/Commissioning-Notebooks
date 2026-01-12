@@ -48,10 +48,10 @@ def generate_task_plan(variables, output_file):
         vis_mode_keys = '''
                 <AcquireVisCamImages>
                     <TargetID>{VIS_targetID}</TargetID>
-                    <ROI_StartX>512</ROI_StartX>
-                    <ROI_StartY>512</ROI_StartY>
-                    <ROI_SizeX>1024</ROI_SizeX>
-                    <ROI_SizeY>1024</ROI_SizeY>
+                    <ROI_StartX>384</ROI_StartX>
+                    <ROI_StartY>384</ROI_StartY>
+                    <ROI_SizeX>1280</ROI_SizeX>
+                    <ROI_SizeY>1280</ROI_SizeY>
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
                     <RiceX>3</RiceX>
@@ -79,10 +79,10 @@ def generate_task_plan(variables, output_file):
         vis_mode_keys = ('''
                 <AcquireVisCamScienceData>
                     <IncludeFieldSolnsInResp>{VIS_IncludeFieldSolnsInResp}</IncludeFieldSolnsInResp>
-                    <ROI_StartX>512</ROI_StartX>
-                    <ROI_StartY>512</ROI_StartY>
-                    <ROI_SizeX>1024</ROI_SizeX>
-                    <ROI_SizeY>1024</ROI_SizeY>
+                    <ROI_StartX>384</ROI_StartX>
+                    <ROI_StartY>384</ROI_StartY>
+                    <ROI_SizeX>1280</ROI_SizeX>
+                    <ROI_SizeY>1280</ROI_SizeY>
                     <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <RiceX>5</RiceX>
