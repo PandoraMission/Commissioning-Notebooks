@@ -4,39 +4,39 @@
     <Visit>
         <ID>0318</ID>
         <Observation_Sequence>
-            <ID>002</ID>
+            <ID>027</ID>
             <Observational_Parameters>
-                <Target>G3143682556189212672</Target>
+                <Target>G594985637741685504</Target>
                 <Priority>1</Priority>
                 <Timing>
                     <Start>2026-01-13 19:40:36.116183</Start>
                     <Stop>2026-01-13 19:44:27.266183</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>118.985495</RA>
-                    <DEC>5.864797666666666</DEC>
+                    <RA>128.835327</RA>
+                    <DEC>6.560497</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
                     <AverageGroups>0</AverageGroups>
-                    <ROI_StartX>1968</ROI_StartX>
-                    <ROI_StartY>824</ROI_StartY>
-                    <ROI_SizeX>80</ROI_SizeX>
-                    <ROI_SizeY>400</ROI_SizeY>
+                    <ROI_StartX>1536</ROI_StartX>
+                    <ROI_StartY>1</ROI_StartY>
+                    <ROI_SizeX>512</ROI_SizeX>
+                    <ROI_SizeY>2048</ROI_SizeY>
                     <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailBinSize>1</ThumbnailBinSize>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
-                    <TargetID>G3143682556189212672</TargetID>
+                    <TargetID>G594985637741685504</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
                     <SC_DropFrames2>0</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
-                    <SC_ReadFrames>24</SC_ReadFrames>
+                    <SC_ReadFrames>6</SC_ReadFrames>
                     <SC_Groups>1</SC_Groups>
                     <SC_Integrations>25</SC_Integrations>
                 </AcquireInfCamImages>
@@ -51,15 +51,15 @@
                     <RiceX>5</RiceX>
                     <RiceY>25</RiceY>
                     <SendThumbnails>0</SendThumbnails>
-                    <TargetID>G3143682556189212672</TargetID>
-                    <TargetRA>118.985495</TargetRA>
-                    <TargetDEC>5.825131</TargetDEC>
+                    <TargetID>G594985637741685504</TargetID>
+                    <TargetRA>128.835327</TargetRA>
+                    <TargetDEC>6.465297</TargetDEC>
                     <StarRoiDetMethod>1</StarRoiDetMethod>
-                    <FramesPerCoadd>1</FramesPerCoadd>
+                    <FramesPerCoadd>10</FramesPerCoadd>
                     <ExposureTime_us>200000</ExposureTime_us>
                     <MaxNumStarRois>2</MaxNumStarRois>
                     <StarRoiDimension>200</StarRoiDimension>
-                    <NumTotalFramesRequested>1155</NumTotalFramesRequested>
+                    <NumTotalFramesRequested>9400</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
