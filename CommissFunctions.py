@@ -12,13 +12,13 @@ import pandorasat as ps
 
 data_rate                 = 5  
 bits_per_pix_VIS          = 32
-compression_fractor_VIS   = 3
+compression_fractor_VIS   = (1/0.4) #3
 frame_time_VIS            = 0.2 #sec
 stored_frames_per_int_VIS = 1
 pass_time_min             = 8
 regions_NIR               = 1
 bits_per_pix_NIR          = 16
-compression_fractor_NIR   = 2
+compression_fractor_NIR   = (1/0.6) #2
 
 p = ps.PandoraSat()
 VIS_ra_shape = (p.VISDA.shape[0]*u.pix) * p.VISDA.pixel_scale #arsecs 
@@ -83,7 +83,7 @@ def generate_task_plan(variables, output_file):
                     <ROI_StartY>384</ROI_StartY>
                     <ROI_SizeX>1280</ROI_SizeX>
                     <ROI_SizeY>1280</ROI_SizeY>
-                    <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
+                    <MaxMagnitudeInQuadCatalog>16.5</MaxMagnitudeInQuadCatalog>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <RiceX>5</RiceX>
                     <RiceY>25</RiceY>
