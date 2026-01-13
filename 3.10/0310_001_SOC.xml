@@ -4,22 +4,22 @@
     <Visit>
         <ID>0310</ID>
         <Observation_Sequence>
-            <ID>000</ID>
+            <ID>001</ID>
             <Observational_Parameters>
-                <Target>pnt123_456705-005_666666</Target>
+                <Target>pnt114_272715-014_555555</Target>
                 <Priority>1</Priority>
                 <Timing>
                     <Start>2026-01-13 17:51:01.503634</Start>
                     <Stop>2026-01-13 17:51:41.503634</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>123.45670577640334</RA>
-                    <DEC>-5.6666666666667105</DEC>
+                    <RA>114.27271551436382</RA>
+                    <DEC>-14.555555555555568</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireVisCamImages>
-                    <TargetID>pnt123_456705-005_666666</TargetID>
+                    <TargetID>pnt114_272715-014_555555</TargetID>
                     <ROI_StartX>384</ROI_StartX>
                     <ROI_StartY>384</ROI_StartY>
                     <ROI_SizeX>1280</ROI_SizeX>
