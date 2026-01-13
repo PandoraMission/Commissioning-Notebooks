@@ -6,11 +6,11 @@
         <Observation_Sequence>
             <ID>014</ID>
             <Observational_Parameters>
-                <Target>5670584955144424576</Target>
+                <Target>G5670584955144424576</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2026-01-13T18:58:28Z</Start>
-                    <Stop>2026-01-13T19:00:04Z</Stop>
+                    <Start>2026-01-13T22:22:10Z</Start>
+                    <Stop>2026-01-13T22:23:46Z</Stop>
                 </Timing>
                 <Boresight>
                     <RA>148.931256</RA>
