@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ScienceCalendar xmlns="/pandora/calendar/">
-<Meta Valid_From="2026-01-05 00:00:00" Expires="2026-02-05 00:00:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 25.0, 63.0" Created="2025-09-19 14:20:52.506870" Delivery_Id=""/>
+<Meta Valid_From="2026-01-05 00:00:00" Expires="2026-02-5 00:00:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 25.0, 63.0" Created="2025-09-19 14:20:52.506870" Delivery_Id=""/>
     <Visit>
         <ID>0319</ID>
         <Observation_Sequence>
@@ -14,32 +14,31 @@
                 </SET_EPS_OPER_SETPOINTS>
             </Bus_Parameters>
             <Observational_Parameters>
-                <Target>pnt174_247198-016_830752</Target>
+                <Target>pnt131.55300+010_49200</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-10-22 19:14:02.292873</Start>
-                    <Stop>2025-10-22 19:24:03.282873</Stop>
+                    <Start>2026-01-14 20:08:01.933890</Start>
+                    <Stop>2026-01-14 20:18:02.923890</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>174.2471975</RA>
-                    <DEC>-16.8307524</DEC>
+                    <RA>131.553</RA>
+                    <DEC>10.492</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
                     <AverageGroups>0</AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>1968</ROI_StartX>
                     <ROI_StartY>824</ROI_StartY>
                     <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
-                    <RiceX>4</RiceX>
+                    <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailBinSize>1</ThumbnailBinSize>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
-                    <TargetID>pnt174_247198-016_830752</TargetID>
+                    <TargetID>pnt131.55300+010_49200</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
@@ -51,21 +50,21 @@
                 </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>512</ROI_StartX>
-                    <ROI_StartY>512</ROI_StartY>
-                    <ROI_SizeX>1024</ROI_SizeX>
-                    <ROI_SizeY>1024</ROI_SizeY>
-                    <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
+                    <ROI_StartX>384</ROI_StartX>
+                    <ROI_StartY>384</ROI_StartY>
+                    <ROI_SizeX>1280</ROI_SizeX>
+                    <ROI_SizeY>1280</ROI_SizeY>
+                    <MaxMagnitudeInQuadCatalog>16.5</MaxMagnitudeInQuadCatalog>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <RiceX>5</RiceX>
                     <RiceY>25</RiceY>
                     <SendThumbnails>0</SendThumbnails>
-                    <TargetID>pnt174_247198-016_830752</TargetID>
-                    <TargetRA>174.2471975</TargetRA>
-                    <TargetDEC>-16.8307524</TargetDEC>
-                    <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <TargetID>pnt131.55300+010_49200</TargetID>
+                    <TargetRA>131.553</TargetRA>
+                    <TargetDEC>10.492</TargetDEC>
+                    <StarRoiDetMethod>2</StarRoiDetMethod>
                     <FramesPerCoadd>1</FramesPerCoadd>
-                    <ExposureTime_us>200000.0</ExposureTime_us>
+                    <ExposureTime_us>200000</ExposureTime_us>
                     <MaxNumStarRois>2</MaxNumStarRois>
                     <StarRoiDimension>50</StarRoiDimension>
                     <NumTotalFramesRequested>3000</NumTotalFramesRequested>
