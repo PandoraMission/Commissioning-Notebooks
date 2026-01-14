@@ -9,8 +9,8 @@
                 <Target>Sirius</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-10-23 21:41:52.828193</Start>
-                    <Stop>2025-10-23 21:44:23.216193</Stop>
+                    <Start>2026-01-14 22:50:23.324284</Start>
+                    <Stop>2026-01-14 22:52:53.712284</Stop>
                 </Timing>
                 <Boresight>
                     <RA>101.286999</RA>
@@ -20,12 +20,11 @@
             <Payload_Parameters>
                 <AcquireInfCamImages>
                     <AverageGroups>0</AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>1536</ROI_StartX>
                     <ROI_StartY>1</ROI_StartY>
                     <ROI_SizeX>512</ROI_SizeX>
                     <ROI_SizeY>2048</ROI_SizeY>
-                    <RiceX>4</RiceX>
+                    <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <SendThumbnails>1</SendThumbnails>
@@ -43,10 +42,10 @@
                 </AcquireInfCamImages>
                 <AcquireVisCamImages>
                     <TargetID>Sirius</TargetID>
-                    <ROI_StartX>512</ROI_StartX>
-                    <ROI_StartY>512</ROI_StartY>
-                    <ROI_SizeX>1024</ROI_SizeX>
-                    <ROI_SizeY>1024</ROI_SizeY>
+                    <ROI_StartX>384</ROI_StartX>
+                    <ROI_StartY>384</ROI_StartY>
+                    <ROI_SizeX>1280</ROI_SizeX>
+                    <ROI_SizeY>1280</ROI_SizeY>
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
                     <RiceX>3</RiceX>
