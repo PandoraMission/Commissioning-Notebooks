@@ -62,7 +62,7 @@ def generate_task_plan(variables, output_file):
                 </AcquireVisCamImages>
             '''
     elif variables['VIS_ExposureTime_us'] != '' and float(variables['VIS_ExposureTime_us']) > 0:
-        if not variables['VIS_StarRoiDetMethod']:
+        if variables['VIS_StarRoiDetMethod'] < 2:
             roi_ras = ""
             roi_decs = ""
             ras = [ra.value if isinstance(ra, u.Quantity) else ra for ra in variables['VIS_PredefinedStarRoiRa']]
