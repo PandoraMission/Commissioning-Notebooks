@@ -6,32 +6,31 @@
         <Observation_Sequence>
             <ID>019</ID>
             <Observational_Parameters>
-                <Target>G3547915223000134144</Target>
+                <Target>pnt131_55314+010_49214</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-10-23 21:31:06.512396</Start>
-                    <Stop>2025-10-23 22:37:13.046396</Stop>
+                    <Start>2026-01-14 22:36:04.839397</Start>
+                    <Stop>2026-01-14 23:42:11.373397</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>174.2471975</RA>
-                    <DEC>-16.8307524</DEC>
+                    <RA>131.55314166666668</RA>
+                    <DEC>10.492144444444444</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
                     <AverageGroups>0</AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>1968</ROI_StartX>
                     <ROI_StartY>824</ROI_StartY>
                     <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
-                    <RiceX>4</RiceX>
+                    <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailBinSize>1</ThumbnailBinSize>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
-                    <TargetID>G3547915223000134144</TargetID>
+                    <TargetID>pnt131_55314+010_49214</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
@@ -43,23 +42,30 @@
                 </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>512</ROI_StartX>
-                    <ROI_StartY>512</ROI_StartY>
-                    <ROI_SizeX>1024</ROI_SizeX>
-                    <ROI_SizeY>1024</ROI_SizeY>
-                    <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
+                    <ROI_StartX>384</ROI_StartX>
+                    <ROI_StartY>384</ROI_StartY>
+                    <ROI_SizeX>1280</ROI_SizeX>
+                    <ROI_SizeY>1280</ROI_SizeY>
+                    <MaxMagnitudeInQuadCatalog>16.5</MaxMagnitudeInQuadCatalog>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <RiceX>5</RiceX>
                     <RiceY>25</RiceY>
                     <SendThumbnails>0</SendThumbnails>
-                    <TargetID>G3547915223000134144</TargetID>
-                    <TargetRA>174.2471975</TargetRA>
-                    <TargetDEC>-16.8307524</TargetDEC>
-                    <StarRoiDetMethod>2</StarRoiDetMethod>
+                    <TargetID>pnt131_55314+010_49214</TargetID>
+                    <TargetRA>131.55314166666668</TargetRA>
+                    <TargetDEC>10.492144444444444</TargetDEC>
+                    <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <numPredefinedStarRois>1</numPredefinedStarRois>
+                    <PredefinedStarRoiRa>
+                        <RA1>131.55314166666668</RA1>
+                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>
+                       <Dec1>10.492144444444444</Dec1>
+                    </PredefinedStarRoiDec>
                     <FramesPerCoadd>50</FramesPerCoadd>
                     <ExposureTime_us>200000</ExposureTime_us>
-                    <MaxNumStarRois>9</MaxNumStarRois>
-                    <StarRoiDimension>50</StarRoiDimension>
+                    <MaxNumStarRois>1</MaxNumStarRois>
+                    <StarRoiDimension>100</StarRoiDimension>
                     <NumTotalFramesRequested>18000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
