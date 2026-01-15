@@ -9,8 +9,8 @@
                 <Target>G3023280397948137088</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2026-01-13T22:22:10Z</Start>
-                    <Stop>2026-01-13T22:23:46Z</Stop>
+                    <Start>2026-01-15T20:22:58Z</Start>
+                    <Stop>2026-01-15T20:24:34Z</Stop>
                 </Timing>
                 <Boresight>
                     <RA>86.131932</RA>
@@ -55,6 +55,13 @@
                     <TargetRA>86.131932</TargetRA>
                     <TargetDEC>-4.695773</TargetDEC>
                     <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <numPredefinedStarRois>1</numPredefinedStarRois>
+                    <PredefinedStarRoiRa>
+                        <RA1>86.131932</RA1>
+                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>
+                       <Dec1>-4.695773</Dec1>
+                    </PredefinedStarRoiDec>
                     <FramesPerCoadd>25</FramesPerCoadd>
                     <ExposureTime_us>200000</ExposureTime_us>
                     <MaxNumStarRois>1</MaxNumStarRois>
