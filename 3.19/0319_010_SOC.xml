@@ -17,8 +17,8 @@
                 <Target>pnt131.55300+010_49200</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2026-01-14 20:08:01.933890</Start>
-                    <Stop>2026-01-14 20:18:02.923890</Stop>
+                    <Start>2026-01-15 17:04:18.755104</Start>
+                    <Stop>2026-01-15 17:14:19.745104</Stop>
                 </Timing>
                 <Boresight>
                     <RA>131.553</RA>
@@ -62,11 +62,18 @@
                     <TargetID>pnt131.55300+010_49200</TargetID>
                     <TargetRA>131.553</TargetRA>
                     <TargetDEC>10.492</TargetDEC>
-                    <StarRoiDetMethod>2</StarRoiDetMethod>
+                    <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <numPredefinedStarRois>1</numPredefinedStarRois>
+                    <PredefinedStarRoiRa>
+                        <RA1>131.553</RA1>
+                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>
+                       <Dec1>10.492</Dec1>
+                    </PredefinedStarRoiDec>
                     <FramesPerCoadd>1</FramesPerCoadd>
                     <ExposureTime_us>200000</ExposureTime_us>
-                    <MaxNumStarRois>2</MaxNumStarRois>
-                    <StarRoiDimension>50</StarRoiDimension>
+                    <MaxNumStarRois>1</MaxNumStarRois>
+                    <StarRoiDimension>100</StarRoiDimension>
                     <NumTotalFramesRequested>3000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
