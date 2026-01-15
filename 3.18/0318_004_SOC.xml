@@ -9,21 +9,21 @@
                 <Target>G3143682556189212672</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2026-01-15 14:57:37.583426</Start>
-                    <Stop>2026-01-15 15:01:28.733426</Stop>
+                    <Start>2026-01-15 21:38:41.848304</Start>
+                    <Stop>2026-01-15 21:55:32.382304</Stop>
                 </Timing>
                 <Boresight>
                     <RA>118.985495</RA>
-                    <DEC>5.7854643333333335</DEC>
+                    <DEC>5.729931</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
                     <AverageGroups>0</AverageGroups>
-                    <ROI_StartX>1968</ROI_StartX>
-                    <ROI_StartY>824</ROI_StartY>
-                    <ROI_SizeX>80</ROI_SizeX>
-                    <ROI_SizeY>400</ROI_SizeY>
+                    <ROI_StartX>1536</ROI_StartX>
+                    <ROI_StartY>400</ROI_StartY>
+                    <ROI_SizeX>512</ROI_SizeX>
+                    <ROI_SizeY>1100</ROI_SizeY>
                     <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
@@ -36,7 +36,7 @@
                     <SC_DropFrames1>0</SC_DropFrames1>
                     <SC_DropFrames2>0</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
-                    <SC_ReadFrames>24</SC_ReadFrames>
+                    <SC_ReadFrames>6</SC_ReadFrames>
                     <SC_Groups>1</SC_Groups>
                     <SC_Integrations>25</SC_Integrations>
                 </AcquireInfCamImages>
@@ -62,11 +62,11 @@
                     <PredefinedStarRoiDec>
                        <Dec1>5.825131</Dec1>
                     </PredefinedStarRoiDec>
-                    <FramesPerCoadd>1</FramesPerCoadd>
+                    <FramesPerCoadd>29</FramesPerCoadd>
                     <ExposureTime_us>200000</ExposureTime_us>
                     <MaxNumStarRois>1</MaxNumStarRois>
                     <StarRoiDimension>200</StarRoiDimension>
-                    <NumTotalFramesRequested>1155</NumTotalFramesRequested>
+                    <NumTotalFramesRequested>5046</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
             </Payload_Parameters>
         </Observation_Sequence>
