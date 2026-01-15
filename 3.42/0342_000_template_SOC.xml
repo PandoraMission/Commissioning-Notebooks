@@ -6,7 +6,7 @@
         <Observation_Sequence>
             <ID>000</ID>
             <Observational_Parameters>
-                <Target>GJ_3470</Target>
+                <Target>Moonshine_Template</Target>
                 <Priority>1</Priority>
                 <Timing>
                     <Start>2025-10-23 21:36:41.242033</Start>
@@ -31,7 +31,7 @@
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailBinSize>1</ThumbnailBinSize>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
-                    <TargetID>GJ_3470</TargetID>
+                    <TargetID>Moonshine_Template</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
@@ -42,7 +42,7 @@
                     <SC_Integrations>2</SC_Integrations>
                 </AcquireInfCamImages>
                 <AcquireVisCamImages>
-                    <TargetID>GJ_3470</TargetID>
+                    <TargetID>Moonshine_Template</TargetID>
                     <ROI_StartX>384</ROI_StartX>
                     <ROI_StartY>384</ROI_StartY>
                     <ROI_SizeX>1280</ROI_SizeX>
