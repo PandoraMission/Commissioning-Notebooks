@@ -6,32 +6,31 @@
         <Observation_Sequence>
             <ID>000</ID>
             <Observational_Parameters>
-                <Target>HD 38949</Target>
+                <Target>HD_38949</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2025-10-27T20:57:50Z</Start>
-                    <Stop>2025-10-28T03:59:05Z</Stop>
+                    <Start>2026-01-15T02:18:41Z</Start>
+                    <Stop>2026-01-15T09:19:55Z</Stop>
                 </Timing>
                 <Boresight>
-                    <RA>87.08357813</RA>
-                    <DEC>-24.46384806</DEC>
+                    <RA>87.0833371718864</RA>
+                    <DEC>-24.46410458521042</DEC>
                 </Boresight>
             </Observational_Parameters>
             <Payload_Parameters>
                 <AcquireInfCamImages>
                     <AverageGroups>1</AverageGroups>
-                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
                     <ROI_StartX>1968</ROI_StartX>
                     <ROI_StartY>824</ROI_StartY>
                     <ROI_SizeX>80</ROI_SizeX>
                     <ROI_SizeY>400</ROI_SizeY>
-                    <RiceX>4</RiceX>
+                    <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <SendThumbnails>1</SendThumbnails>
                     <ThumbnailBinSize>1</ThumbnailBinSize>
                     <ThumbnailCompressionType>1</ThumbnailCompressionType>
-                    <TargetID>HD 38949</TargetID>
+                    <TargetID>HD_38949</TargetID>
                     <SC_Resets1>1</SC_Resets1>
                     <SC_Resets2>1</SC_Resets2>
                     <SC_DropFrames1>0</SC_DropFrames1>
@@ -43,22 +42,45 @@
                 </AcquireInfCamImages>
                 <AcquireVisCamScienceData>
                     <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
-                    <ROI_StartX>512</ROI_StartX>
-                    <ROI_StartY>512</ROI_StartY>
-                    <ROI_SizeX>1024</ROI_SizeX>
-                    <ROI_SizeY>1024</ROI_SizeY>
-                    <MaxMagnitudeInQuadCatalog>15.5</MaxMagnitudeInQuadCatalog>
+                    <ROI_StartX>384</ROI_StartX>
+                    <ROI_StartY>384</ROI_StartY>
+                    <ROI_SizeX>1280</ROI_SizeX>
+                    <ROI_SizeY>1280</ROI_SizeY>
+                    <MaxMagnitudeInQuadCatalog>16.5</MaxMagnitudeInQuadCatalog>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
                     <RiceX>5</RiceX>
                     <RiceY>25</RiceY>
                     <SendThumbnails>0</SendThumbnails>
-                    <TargetID>HD 38949</TargetID>
-                    <TargetRA>87.08357813</TargetRA>
-                    <TargetDEC>-24.46384806</TargetDEC>
+                    <TargetID>HD_38949</TargetID>
+                    <TargetRA>87.0833371718864</TargetRA>
+                    <TargetDEC>-24.46410458521042</TargetDEC>
                     <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <numPredefinedStarRois>9</numPredefinedStarRois>
+                    <PredefinedStarRoiRa>
+                        <RA1>87.0833371718864</RA1>
+                        <RA2>87.1378442681438</RA2>
+                        <RA3>86.98500755729762</RA3>
+                        <RA4>86.92644853251187</RA4>
+                        <RA5>86.92960520350267</RA5>
+                        <RA6>87.34704625368744</RA6>
+                        <RA7>87.34774219194658</RA7>
+                        <RA8>86.80798722510778</RA8>
+                        <RA9>87.33816263107846</RA9>
+                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>
+                       <Dec1>-24.46410458521042</Dec1>
+                       <Dec2>-24.40799131818154</Dec2>
+                       <Dec3>-24.38488737863343</Dec3>
+                       <Dec4>-24.437539982562154</Dec4>
+                       <Dec5>-24.410656869379824</Dec5>
+                       <Dec6>-24.460588959688668</Dec6>
+                       <Dec7>-24.460294669644174</Dec7>
+                       <Dec8>-24.4939255459669</Dec8>
+                       <Dec9>-24.36372230613321</Dec9>
+                    </PredefinedStarRoiDec>
                     <FramesPerCoadd>50</FramesPerCoadd>
-                    <ExposureTime_us>200000.0</ExposureTime_us>
-                    <MaxNumStarRois>0</MaxNumStarRois>
+                    <ExposureTime_us>200000</ExposureTime_us>
+                    <MaxNumStarRois>9</MaxNumStarRois>
                     <StarRoiDimension>50</StarRoiDimension>
                     <NumTotalFramesRequested>120000</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
