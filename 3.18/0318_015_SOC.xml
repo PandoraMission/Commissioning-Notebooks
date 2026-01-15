@@ -9,8 +9,8 @@
                 <Target>G580568497680564864</Target>
                 <Priority>1</Priority>
                 <Timing>
-                    <Start>2026-01-13 19:40:36.116183</Start>
-                    <Stop>2026-01-13 19:44:27.266183</Stop>
+                    <Start>2026-01-15 14:57:37.583426</Start>
+                    <Stop>2026-01-15 15:01:28.733426</Stop>
                 </Timing>
                 <Boresight>
                     <RA>138.345253</RA>
@@ -23,7 +23,7 @@
                     <ROI_StartX>1536</ROI_StartX>
                     <ROI_StartY>1</ROI_StartY>
                     <ROI_SizeX>512</ROI_SizeX>
-                    <ROI_SizeY>2048</ROI_SizeY>
+                    <ROI_SizeY>960</ROI_SizeY>
                     <RiceX>5</RiceX>
                     <RiceY>28</RiceY>
                     <SaveImagesToDisk>1</SaveImagesToDisk>
@@ -55,9 +55,16 @@
                     <TargetRA>138.345253</TargetRA>
                     <TargetDEC>5.815516</TargetDEC>
                     <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <numPredefinedStarRois>1</numPredefinedStarRois>
+                    <PredefinedStarRoiRa>
+                        <RA1>138.345253</RA1>
+                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>
+                       <Dec1>5.815516</Dec1>
+                    </PredefinedStarRoiDec>
                     <FramesPerCoadd>10</FramesPerCoadd>
                     <ExposureTime_us>200000</ExposureTime_us>
-                    <MaxNumStarRois>2</MaxNumStarRois>
+                    <MaxNumStarRois>1</MaxNumStarRois>
                     <StarRoiDimension>200</StarRoiDimension>
                     <NumTotalFramesRequested>9400</NumTotalFramesRequested>
                 </AcquireVisCamScienceData>
