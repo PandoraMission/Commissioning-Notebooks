@@ -36,7 +36,7 @@
                     <SC_DropFrames1>0</SC_DropFrames1>
                     <SC_DropFrames2>16</SC_DropFrames2>
                     <SC_DropFrames3>0</SC_DropFrames3>
-                    <SC_ReadFrames>1.0</SC_ReadFrames>
+                    <SC_ReadFrames>1</SC_ReadFrames>
                     <SC_Groups>2</SC_Groups>
                     <SC_Integrations>12808</SC_Integrations>
                 </AcquireInfCamImages>
